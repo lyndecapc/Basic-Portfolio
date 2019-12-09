@@ -6,16 +6,31 @@ body {
 header {
     position: fixed;
     background: #ffffff;
-    height: 60px;
+    height: 80px;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 100px;
+    top: 0;
+    left: 0;
     border-bottom-style: solid;
     border-color: #dddddd;
     border-width: 1px;
-    top: 0;
-    left: 0;
+
     
+}
+
+.name {
+    position: absolute;
+    background: #4aaaa5;
+    width: 375px;
+    height: 80px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    left: 340px;
+    top: -20px;
+
+
 }
 
 h6 {
@@ -24,20 +39,9 @@ h6 {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     background: #ffffff;
-    right: 0;
+    right: 330px;
     top: -20px;
    
-}
-
-h1 {
-    position: relative;
-    background: #4aaaa5;
-    width: 20%;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    left: 100px;
-    text-align: center;
-
 }
 
 a {
@@ -64,16 +68,21 @@ h3 {
     border-width: 2px;
 }
 
-#content {
+img {
+    float: left;
+    padding: 20px;
+    width: 200px; 
+    height: 200px;
     
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 30px;
     margin-bottom: 10px;
+    padding-left: 20px;
 
 }
 
