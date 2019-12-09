@@ -1,9 +1,11 @@
 body {
     background-image: url("../images/full-bloom-bkgrnd.png");
+    
 }
 
 
 header {
+    width: 960px;
     position: fixed;
     background: #ffffff;
     height: 80px;
@@ -13,6 +15,7 @@ header {
     border-bottom-style: solid;
     border-color: #dddddd;
     border-width: 1px;
+    box-sizing: border-box;
 
     
 }
@@ -29,7 +32,6 @@ header {
     text-align: center;
     left: 340px;
     top: -20px;
-
 
 }
 
@@ -86,6 +88,12 @@ p {
 
 }
 
+#submit {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+}
+
 footer {
     background: #666666;
     padding: 30px;
@@ -94,7 +102,7 @@ footer {
     bottom: 0;
     width: 100%;
     border-top-style: solid;
-    border-width: 4px;
+    border-width: 8px;
     border-color: #4aaaa5;
 
 }
