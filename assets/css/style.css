@@ -5,13 +5,11 @@ body {
 
 
 header {
-    width: 960px;
+    width: 100%;
     position: fixed;
     background: #ffffff;
     height: 80px;
-    width: 100%;
     top: 0;
-    left: 0;
     border-bottom-style: solid;
     border-color: #dddddd;
     border-width: 1px;
@@ -30,19 +28,19 @@ header {
     font-size: 15px;
     margin-top: 20px;
     text-align: center;
-    left: 340px;
+    left: 20%;
     top: -20px;
 
 }
 
-h6 {
-    position: absolute;
+nav {
+    position: fixed;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     background: #ffffff;
-    right: 330px;
-    top: -20px;
+    right: 20%;
+    top: 10px;
    
 }
 
@@ -70,7 +68,7 @@ h3 {
     border-width: 2px;
 }
 
-img {
+#self {
     float: left;
     padding: 20px;
     width: 200px; 
@@ -93,6 +91,40 @@ p {
     color: #ffffff;
     padding: 5px 10px 5px 10px;
 }
+
+#dog {
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+#vegas {
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    transform: rotate(90deg);
+}
+
+#linac {
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    transform: rotate(90deg);
+}
+
+#weightlifting {
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    transform: rotate(90deg);
+}
+
+#jackrussell {
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+
 
 footer {
     background: #666666;
