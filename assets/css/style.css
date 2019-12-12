@@ -136,6 +136,8 @@ footer {
     border-top-style: solid;
     border-width: 8px;
     border-color: #4aaaa5;
-
+    text-align: center;
+    color: #ffffff;
+    font-size: xx-small;
 }
 
