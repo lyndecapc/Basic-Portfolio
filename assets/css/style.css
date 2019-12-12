@@ -92,6 +92,10 @@ p {
     padding: 5px 10px 5px 10px;
 }
 
+#submit:hover {
+    background: gray;
+}
+
 #dog {
     border-radius: 10px;
     width: 120px;
@@ -105,27 +109,6 @@ p {
     transform: rotate(90deg);
 }
 
-#linac {
-    border-radius: 10px;
-    width: 120px;
-    height: 120px;
-    transform: rotate(90deg);
-}
-
-#weightlifting {
-    border-radius: 10px;
-    width: 120px;
-    height: 120px;
-    transform: rotate(90deg);
-}
-
-#jackrussell {
-    border-radius: 10px;
-    width: 120px;
-    height: 120px;
-}
-
-
 footer {
     background: #666666;
     padding: 30px;
@@ -136,8 +119,17 @@ footer {
     border-top-style: solid;
     border-width: 8px;
     border-color: #4aaaa5;
+}
+    
+.copyright {
+    position: fixed;
+    bottom: 5px;
+    right: 50%;
     text-align: center;
     color: #ffffff;
-    font-size: xx-small;
+    font-size: x-small;
+
 }
+       
+
 
