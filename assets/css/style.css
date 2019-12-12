@@ -41,7 +41,7 @@ nav {
     background: #ffffff;
     right: 20%;
     top: 10px;
-   
+    
 }
 
 a {
@@ -49,7 +49,9 @@ a {
     text-decoration: none;
     display: inline-block;
     padding: 10px;
+   
 }
+
 
 h3 {
     color: #4aaaa5;
@@ -98,17 +100,107 @@ p {
 
 #dog {
     border-radius: 10px;
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
 }
 
+#dogcont {
+    position: relative;
+}
+
+#dogtext {
+    position: absolute;
+    top: 88px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+
 #vegas {
+    position: absolute;
+    top: 0px;
+    left: 16%;
     border-radius: 10px;
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
+    transform: rotate(90deg);
+    
+}
+
+#vegastext {
+    position: absolute;
+    top: 88px;
+    left: 16%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 52px;
+    padding-right: 50px;
+}  
+
+#oly {
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
     transform: rotate(90deg);
 }
 
+#olytext {
+    position: absolute;
+    top: 232px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 28px;
+    padding-right: 27px;
+}
+  
+#jrt {
+    position: absolute;
+    left: 16%;
+    top: 144px;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+}
+
+#JRTtext {
+    position: absolute;
+    top: 232px;
+    left: 16%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 31px;
+}
+
+#linac {
+    position: relative;
+    left: 0;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+    transform: rotate(90deg);
+}
+
+#linactext {
+    position: absolute;
+    top: 376px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 46px;
+    padding-right: 45px;
+}
+
+  
 footer {
     background: #666666;
     padding: 30px;
@@ -128,8 +220,13 @@ footer {
     text-align: center;
     color: #ffffff;
     font-size: x-small;
-
 }
+
+
+
+
+
+   
        
 
 
