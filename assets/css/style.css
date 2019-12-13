@@ -81,7 +81,7 @@ h3 {
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 30px;
     margin-bottom: 10px;
     padding-left: 20px;
@@ -95,8 +95,9 @@ p {
 }
 
 #submit:hover {
-    background: gray;
+    background: #777777;;
 }
+
 
 #dog {
     border-radius: 10px;
@@ -117,6 +118,10 @@ p {
     text-align: center;
     padding-left: 34px;
     padding-right: 33px;
+}
+
+#dogtext:hover {
+    background: #777777;
 }
 
 
@@ -142,6 +147,10 @@ p {
     padding-right: 50px;
 }  
 
+#vegastext:hover {
+    background: #777777;;
+}
+
 #oly {
     border-radius: 10px;
     width: 140px;
@@ -158,6 +167,10 @@ p {
     text-align: center;
     padding-left: 26px;
     padding-right: 27px;
+}
+
+#olytext:hover {
+    background: #777777;;
 }
   
 #jrt {
@@ -180,6 +193,10 @@ p {
     padding-right: 25px;
 }
 
+#JRTtext:hover {
+    background: #777777;
+}
+
 #linac {
     position: relative;
     left: 0;
@@ -198,6 +215,10 @@ p {
     text-align: center;
     padding-left: 42px;
     padding-right: 43px;
+}
+
+#linactext:hover {
+    background: #777777;
 }
 
   
