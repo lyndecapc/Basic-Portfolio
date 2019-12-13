@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/full-bloom-bkgrnd.png");
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -24,7 +24,7 @@ header {
     width: 375px;
     height: 80px;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
     margin-top: 20px;
     text-align: center;
@@ -115,8 +115,8 @@ p {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding-left: 34px;
+    padding-right: 33px;
 }
 
 
@@ -138,7 +138,7 @@ p {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-left: 52px;
+    padding-left: 46px;
     padding-right: 50px;
 }  
 
@@ -156,7 +156,7 @@ p {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-left: 28px;
+    padding-left: 26px;
     padding-right: 27px;
 }
   
@@ -176,8 +176,8 @@ p {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 31px;
+    padding-left: 26px;
+    padding-right: 25px;
 }
 
 #linac {
@@ -196,8 +196,8 @@ p {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-left: 46px;
-    padding-right: 45px;
+    padding-left: 42px;
+    padding-right: 43px;
 }
 
   
